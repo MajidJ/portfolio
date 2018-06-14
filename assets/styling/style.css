@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(0deg, #fafafa, #edfffa);
+}
+.navbar-toggler {
+  font-size: 2em;
+  padding: .5em;
+}
+.color-card {
+  background: linear-gradient(-90deg, #3986eb, #4ad4c7);
+}
+.card-up {
+  margin-top: -5em;
+}
+.section-text {
+  color: #4d4d4d;
+}
+.max-h {
+  height: 100%;
+}

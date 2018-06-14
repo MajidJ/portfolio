@@ -1,0 +1,40 @@
+@blue: #3986eb;
+@green: #4ad4c7;
+@yellow: #f7c364;
+@red: #e04d6b;
+@dark-gray: #4d4d4d;
+@bg-color-1: #fafafa;
+@bg-color-2: #edfffa;
+@light-gradient: linear-gradient(0deg, @bg-color-1, @bg-color-2);
+@hot-gradient: linear-gradient(90deg, @red, @yellow);
+@cold-gradient: linear-gradient(-90deg, @blue, @green);
+
+body {
+    // background-color: @bg-color-2;
+    background: @light-gradient;
+}
+
+.navbar-toggler {
+    font-size: 2em;
+    padding: .5em;
+}
+
+// .about-row {
+//     margin: -450px auto 0;
+// }
+
+.color-card {
+    background: @cold-gradient;
+}
+
+.card-up {
+    margin-top: -5em;
+}
+
+.section-text { 
+    color: @dark-gray;
+}
+
+.max-h {
+    height: 100%;
+}
